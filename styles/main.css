@@ -59,15 +59,20 @@ header h2{
     text-decoration: none;
     padding: 5px 1em;
     transition: all 0.5s;
+    color: black;
 }
 #nav_list ul li a:hover {
-    color: navy;
+    color: #b96161;
     transition: all 0.5s;
 }
 #nav_list ul li:hover {
     background-color: white;
     margin-left: 0.5em;
     margin-right: 0;
+}
+#nav_list ul li a:visited {
+    color: #ff8787;
+    background-color: #000000;
 }
 section {
     width: 75%;
